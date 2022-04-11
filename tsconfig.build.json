@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "esnext",
+    "target": "esnext",
+    "declaration": true,
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["scripts/*.ts"]
+}

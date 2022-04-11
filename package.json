@@ -1,0 +1,38 @@
+{
+  "name": "easy-vue-directive",
+  "version": "1.0.0-beta.2",
+  "description": "更简单的去使用 Vue 指令",
+  "files": [
+    "dist/"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shanlan-L/easy-vue-directive.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shanlan-L/easy-vue-directive/issues"
+  },
+  "homepage": "https://github.com/shanlan-L/easy-vue-directive#readme",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "build:lib": "tsc -p tsconfig.build.json",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "typescript": "^4.6.3",
+    "vite": "^2.9.1",
+    "vue": "^3.2.31",
+    "vue-tsc": "^0.29.8"
+  },
+  "dependencies": {
+    "easy-vue-directive": "^1.0.0-beta.2"
+  }
+}
