@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
-import easyVueDirective from 'easy-vue-directive/dist/index.js'
+import easyVueDirective from 'easy-vue-directive'
 
 const app = createApp(App)
 

@@ -1,17 +1,19 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@types/node': ^17.0.23
   '@vitejs/plugin-vue': ^2.3.1
-  easy-vue-directive: ^1.0.0-beta.2
+  easy-vue-directive: ^1.0.0-beta.5
   typescript: ^4.6.3
   vite: ^2.9.1
   vue: ^3.2.31
   vue-tsc: ^0.29.8
 
 dependencies:
-  easy-vue-directive: 1.0.0-beta.2
+  easy-vue-directive: 1.0.0-beta.5
 
 devDependencies:
+  '@types/node': 17.0.23
   '@vitejs/plugin-vue': registry.npmmirror.com/@vitejs/plugin-vue/2.3.1_vite@2.9.1+vue@3.2.31
   typescript: registry.npmmirror.com/typescript/4.6.3
   vite: registry.npmmirror.com/vite/2.9.1
@@ -20,8 +22,12 @@ devDependencies:
 
 packages:
 
-  /easy-vue-directive/1.0.0-beta.2:
-    resolution: {integrity: sha512-NoSOWWWQsBKDQFpQS0/aYqFzcXNOJ/ihtNw4RaXLgNf985LLy2jZLfrPXY08x5XFBIhE167YjuqQSOHCyMojtA==}
+  /@types/node/17.0.23:
+    resolution: {integrity: sha512-UxDxWn7dl97rKVeVS61vErvw086aCYhDLyvRQZ5Rk65rZKepaFdm53GeqXaKBuOhED4e9uWq34IC3TdSdJJ2Gw==}
+    dev: true
+
+  /easy-vue-directive/1.0.0-beta.5:
+    resolution: {integrity: sha512-SkpXJJlmww1qQxwHV7bfPyG/oq9/e9WjeJniNZ0ErIQsZKjb8bG0OIYFnll0fN7hKBGJmv1tNEBrrQu0hyfrKQ==}
     dev: false
 
   /esbuild-android-64/0.14.34:

@@ -8,13 +8,14 @@
 
 <script setup lang="ts" >
 import { reactive } from 'vue';
-import { CopyConfig } from '../../scripts';
+import { CopyConfig } from 'easy-vue-directive';
 
 const copyConfig = reactive<CopyConfig>({
   value: 1,
-  success: () => {
-    console.log('success')
-  }
+  success: (copyValueRef) => {
+    console.log(copyValueRef?.value);
+  },
+  event: 'click'
 })
 
 </script>
