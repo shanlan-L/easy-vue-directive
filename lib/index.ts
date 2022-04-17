@@ -1,5 +1,11 @@
 import { App, Ref } from 'vue'
 import copy from './directives/v-copy'
+import lazy from './directives/v-lazy'
+
+const directives = [
+  { name: 'copy', component: copy },
+  { name: 'lazy', component: lazy },
+]
 
 export interface CopyConfig {
   value: string | number
@@ -8,5 +14,7 @@ export interface CopyConfig {
 }
 
 export default function (app: App) {
-  app.directive('copy', copy)
+  directives.forEach((directive) =>
+    app.directive(directive.name, directive.component),
+  )
 }

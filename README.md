@@ -29,3 +29,12 @@ const copyConfig = reactive<CopyConfig>({
   success: (copyValueRef) => {} // 复制成功的回调
 })
 ```
+
+### v-lazy
+
+示例文件: src/components/vLazy.vue
+
+```
+<img v-lazy="imgSrc" /> // imgSrc 图片的地址，可以为函数 return 出图片地址
+
+```
